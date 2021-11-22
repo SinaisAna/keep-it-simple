@@ -1,0 +1,168 @@
+nav {
+    background: #222;
+    padding: 5px 20px;
+}
+
+nav h2 {
+    color: white;
+    text-decoration: none;
+    text-align: right;
+}
+
+.container-changes-file{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.container-change-border{
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 20px;
+
+}
+
+.btn-changes-view{
+    margin-top: 30px;
+    color: white;
+    background: #222;
+    border: none;
+    padding:12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 4px;
+    width: 1%;
+}
+
+#changes{
+    margin-top: 12px;
+
+    color: white;
+    background: #222;
+    border: none;
+    padding:12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-select{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.container-select div{
+    display: inline-block;
+    padding:10px;
+}
+
+.container-select div p{
+    font-size: 20px;
+    font-style: sans-serif, helvetica;
+}
+.div-btn-filter{
+  margin-top:18px;
+}
+
+.btn-filter{
+    color: white;
+    background: #222;
+    border: none;
+    padding:12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 4px;
+}
+
+.hidden {
+    display: none;
+}
+.btn-dowload{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.btn-dowload button{
+    margin: 12px;
+}
+
+th, td{
+    padding:20px;
+}
+
+thead{
+    background-color: #246355;
+    border-bottom: solid 5px #0f362d;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+tr:hover{
+    background-color: #369681;
+}
+
+.app-title{
+    width: 100%;
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+    color: #6A6A6A;
+    margin-bottom: 30px;
+}
+.alldata{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 60px;
+    justify-content: center;
+}
+/* comienzo de css paginación*/
+.pagenumbers {
+    margin: 40px 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagenumbers button {
+    width: 40px;
+    height: 40px;
+    appearance:none;
+    border:none;
+    outline: none;
+    cursor:pointer;
+    background-color: #222;
+    margin: 5px;
+    transition: 0.4s;
+    color:white;
+    font-size: 16px;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pagenumbers button:hover {
+    background-color: #166956;
+}
+
+.pagenumbers button.active {
+    background-color: #166956;
+    box-shadow: inset 0px 8px 4px rgba(0, 0, 0, 0.2);
+}
+.navitem{
+    color: white;
+    background: #222;
+    border: none;
+    padding:12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 4px;
+}
